@@ -39,7 +39,7 @@
 
 							<?php
 
-								require 'database.php';
+								/*require 'database.php';
 								$db = Database::connecter();
 								$statement = $db->query('SELECT items.id, items.Modele FROM items');
 								while($item = $statement->fetch())
@@ -47,7 +47,7 @@
 
 									echo '<li><a href="#">' . $item['Modele'].'</a></li>';
 									
-								}
+								}*/
 
 							?>
 
